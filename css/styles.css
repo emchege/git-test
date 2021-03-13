@@ -1,0 +1,64 @@
+.p1 {
+  font-family: "Original Surfer", sans-serif; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  /* the first is the body default font the second is 
+    what to load if it can't load the default  */ }
+
+h1, h2, h3 {
+  font-family: "Lobster", cursive;
+  /* this appllies to all three elements mentioned as a selector */ }
+
+h2 {
+  color: #3046C5;
+  /* this appllies to all h2 elements and descendents   */ }
+
+header h2 {
+  color: #CEC8FF; }
+
+.site-footer {
+  background-image: linear-gradient(#CEC8FF, white);
+  padding: 20px 0; }
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+  color: white;
+  /* added padding and linear gradient left to right with three color stops */ }
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
+
+.navbar {
+  background-color: #901CAD; }
+
+.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px; }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.carousel {
+  border: solid #5637dd; }
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  /* Setting the z-index to 100 ensures that 
+    the play and pause buttons are overlaid on top of the carousel*/
+  z-index: 100; }
+
+#reserveModal .modal-header {
+  background-color: #17A2B8;
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: #901CAD;
+  color: white; }
